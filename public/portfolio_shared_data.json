@@ -1,17 +1,12 @@
 {
     "basic_info": {
-      "name": "Davina Griss",
-      "titles": [ "Front-end Developer", "Senior Data Engineer", "Dev Team lead", "Mobile App Developer" ],
+      "name": "Noah Dirck",
+      "titles": [ "Full-Stack Developer", "life long student", "novice nerd" ],
       "social": [
         {
           "name": "github",
-          "url": "https://github.com",
+          "url": "https://github.com/Niche-Quiche",
           "class": "fab fa-github"
-        },
-        {
-          "name": "instagram",
-          "url": "https://www.instagram.com",
-          "class": "fab fa-instagram"
         }
       ],
       "image": "myProfile.jpg"
@@ -29,13 +24,13 @@
           "level": "95"
         },
         {
-          "name": "Angular",
-          "class": "devicon-angularjs-plain",
+          "name": "Node.JS",
+          "class": "devicon-nodejs-plain",
           "level": "80"
         },
         {
-          "name": "TypeScript",
-          "class": "devicon-typescript-plain",
+          "name": "Express",
+          "class": "devicon-express-original",
           "level": "90"
         },
         {
@@ -44,8 +39,8 @@
           "level": "70"
         },
         {
-          "name": "Sass",
-          "class": "devicon-sass-original",
+          "name": "PostgreSQL",
+          "class": "devicon-postgresql-plain",
           "level": "75"
         },
         {
@@ -54,13 +49,18 @@
           "level": "85"
         },
         {
-          "name": "C#",
-          "class": "devicon-csharp-plain",
+          "name": "React",
+          "class": "devicon-react-original",
           "level": "65"
         },
         {
-          "name": "MySql",
-          "class": "devicon-mysql-plain",
+          "name": "Redux",
+          "class": "devicon-redux-original",
+          "level": "60"
+        },
+        {
+          "name": "Python",
+          "class": "devicon-python-plain",
           "level": "60"
         }
       ]
