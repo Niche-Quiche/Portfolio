@@ -6,6 +6,8 @@ import Footer from "./components/Footer";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import Modal from "./components/Modal";
+import Resume from "./components/Resume";
 
 class App extends Component {
 
@@ -15,8 +17,20 @@ class App extends Component {
       foo: "bar",
       resumeData: {},
       sharedData: {},
+      show: false
     };
+    this.showModal = this.showModal.bind(this);
+    this.hideModal = this.hideModal.bind(this);
   }
+
+  showModal = () => {
+    this.setState({ show: true });
+  };
+
+  hideModal = () => {
+    this.setState({ show: false });
+  };
+  
 
   applyPickedLanguage(pickedLanguage, oppositeLangIconId) {
     this.swapCurrentlyActiveLanguage(oppositeLangIconId);
@@ -83,6 +97,13 @@ class App extends Component {
       <div>
         <Header sharedData={this.state.sharedData.basic_info} />
         <div className="col-md-12 mx-auto text-center language">
+        {/* <Modal show={this.state.show} handleClose={this.hideModal}>
+            <p>Modal</p>
+            <Resume />
+          </Modal>
+          <button type="button" onClick={this.showModal}>
+          Open
+        </button> */}
           <div
             onClick={() =>
               this.applyPickedLanguage(

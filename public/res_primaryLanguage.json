@@ -54,11 +54,16 @@
       },
       {
         "title": "Kackle",
-        "description": "Kackle is a social media site that combines your favourite parts of other social media sites and puts it all in one place. My team and I built this project to showcase our skills in Full-Stack Development and to learn new ones along the way.",
+        "description": "Kackle is a social media site that combines your favorite parts of other social media sites and puts it all in one place. Also features a raspberry pi mini-project, the Michael Scott Bot, which uses a physical button press to tweet a random Michael Scott quote. It uses the Twython Python package which works in conjunction with Twitter's API. My team and I built this project to showcase our skills in Full-Stack Development and to learn new ones along the way.",
         "images": [
-          "images/portfolio/kackle/klogo.png"
+          "images/portfolio/kackle/landing-page.jpg",
+          "images/portfolio/kackle/Kackle-screenshot.jpg",
+          "images/portfolio/kackle/MichaelScottBot.mp4"
+          
+
+
         ],
-        "url": "https://github.com/dess890/kackle",
+        "url": "http://kackleapp.herokuapp.com/",
         "technologies": [
           {
             "class": "devicon-react-original",

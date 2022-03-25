@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 import Typical from "react-typical";
+import  Modal  from "./Modal";
 
 class Header extends Component {
   titles = [];
-
+  
   constructor() {
     super();
     this.state = { checked: false };
@@ -14,7 +15,7 @@ class Header extends Component {
     this.setState({ checked });
     this.setTheme();
   }
-
+  
   setTheme() {
     var dataThemeAttribute = "data-theme";
     var body = document.body;
@@ -28,11 +29,13 @@ class Header extends Component {
       var name = this.props.sharedData.name;
       this.titles = this.props.sharedData.titles.map(x => [ x.toUpperCase(), 1500 ] ).flat();
     }
+    
+  
 
     const HeaderTitleTypeAnimation = React.memo( () => {
       return <Typical className="title-styles" steps={this.titles} loop={50} />
     }, (props, prevProp) => true);
-
+    
     return (
       <header id="home" style={{ height: window.innerHeight - 140, display: 'block' }}>
         <div className="row aligner" style={{height: '100%'}}>
@@ -48,6 +51,9 @@ class Header extends Component {
               </div>
             </div>
           </div>
+        
+              {/* <Modal/> */}
+          {/* <span class="iconify" data-icon="clarity:note-line" color="white" data-width="50" data-height="50"></span> */}
         </div>
       </header>
     );
