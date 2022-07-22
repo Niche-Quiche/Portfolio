@@ -62,6 +62,21 @@
           "name": "Python",
           "class": "devicon-python-plain",
           "level": "60"
+        },
+        {
+          "name": "Figma",
+          "class": "devicon-figma-plain",
+          "level": "60"
+        },
+        {
+          "name": "MaterialUI",
+          "class": "devicon-materialui-plain",
+          "level": "60"
+        },
+        {
+          "name": "Git",
+          "class": "devicon-git-plain",
+          "level": "60"
         }
       ]
     }

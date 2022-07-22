@@ -12,13 +12,13 @@
     "projects": [
       {
         "title": "MnZ Movie Travel",
-        "description": "Team and I built a website where users can explore filming locations from their favorite movies and can also access real-time webcam feed from said locations. Responsibilities included utilizing several APIs to render information on the front end. Designed home page, search page and built the map page which loads the location markers.",
+        "description": "Team and I built a mobile-responsive website where users can explore filming locations from their favorite movies and can also access real-time webcam feed from said locations. Responsibilities included utilizing several APIs to render information on the front end. Designed home page, search page and built the map page which loads the location markers.",
         "images": [
           "images/portfolio/MnZ/mappins.jpg",
           "images/portfolio/MnZ/p2.png",
           "images/portfolio/MnZ/map_cams_result.png"
         ],
-        "url": "https://github.com/Niche-Quiche/Frontend_Project",
+        "url": "https://mnz-travel.netlify.app/",
         "technologies": [
           {
             "class": "devicon-javascript-plain",
